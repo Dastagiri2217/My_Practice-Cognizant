@@ -70,4 +70,4 @@ public class BuilderPatternExample{
 	}
 }
 //by this Builder Design Pattern we can invoke multiple methods on single object and 
-//also no need to remember the order of params if we have may
+//also no need to remember the order of params if we have many
