@@ -73,11 +73,13 @@ class Inventory{
 		else {
 			System.out.println("Product Doesnt Exist in Store");
 		}
+		//O(1) t.c for whole method
 	}
 	public void displayProducts() {
 		for(Product p : store.values()) {
 			System.out.println(p);
 		}
+		//T.C is O(n) for iteration through the entire Map
 	}
 }
 public class InventoryManagement{
