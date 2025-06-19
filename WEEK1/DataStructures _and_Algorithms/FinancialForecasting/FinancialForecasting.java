@@ -19,5 +19,7 @@ public class FinancialForecasting{
         int years = sc.nextInt();
         double futureValue = calulateFutureValue(presentAmount,rate,years);
         System.out.printf("The Future value of : %d After %d years with constant Growth rate: %.2f is :%.2f",presentAmount,years,rate,futureValue);
+        //Time Complexiity - O(n) for calling years -1
+        //Space Complexity -O(n) for stack calling
     }
 }
