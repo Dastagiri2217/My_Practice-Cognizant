@@ -3,7 +3,7 @@ class Logger {
 	private Logger() {
 		System.out.println("Instance Created ");
 	}
-	//there are may types of singleton pattern ways i choose lazy Initilization because eager has is not safe
+	//there are may types of singleton pattern ways, i choose lazy Initilization because eager  is not safe
 	public static Logger getInstance() {
 		if(log == null) {
 			log = new Logger(); // Creates an Object  if log is intially null for the first time
